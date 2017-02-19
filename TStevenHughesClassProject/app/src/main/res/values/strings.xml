@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">ThomasDemo</string>
+
+    <string name="hello_blank_fragment">Blank fragment</string>
+    <string name="test">Test</string>
+    <string name="header">Header</string>
 </resources>
