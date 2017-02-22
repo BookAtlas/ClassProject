@@ -25,7 +25,7 @@ public class Hw3Activity extends AppCompatActivity {
     private ListView listView;
     private LRListViewAdapter mAdapter;
     private ArrayList<Fragment> fragmentList = new ArrayList<Fragment>();
-    private TabLayout tabLayout;
+    private ViewPager viewpager;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -76,9 +76,6 @@ public class Hw3Activity extends AppCompatActivity {
         ViewPagerStateAdapter viewPagerAdapter = new ViewPagerStateAdapter(this.getSupportFragmentManager());
         viewPagerAdapter.setContent(fragmentList);
         viewPager.setAdapter(viewPagerAdapter);
-
-        tabLayout = (TabLayout) findViewById(R.id.tablayout);
-        tabLayout.setupWithViewPager(viewPager);
 
     }
 }
