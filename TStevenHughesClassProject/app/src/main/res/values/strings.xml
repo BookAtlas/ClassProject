@@ -4,4 +4,12 @@
     <string name="hello_blank_fragment">Blank fragment</string>
     <string name="test">Test</string>
     <string name="header">Header</string>
+    <string name="a">A</string>
+    <string name="toA">toA</string>
+    <string name="toD">toD</string>
+    <string name="toC">toC</string>
+    <string name="toB">toB</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
 </resources>
