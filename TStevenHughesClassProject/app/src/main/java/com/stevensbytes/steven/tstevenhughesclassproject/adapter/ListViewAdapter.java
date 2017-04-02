@@ -22,6 +22,12 @@ public class ListViewAdapter extends BaseAdapter {
         this.mContext = context;
         mInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
     }
+
+    public ListViewAdapter(Context context, int layout) {
+        this.mContext = context;
+        mInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+    }
+
     @Override
     public int getCount() {
         return 100;

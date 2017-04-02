@@ -12,4 +12,6 @@
     <string name="b">B</string>
     <string name="c">C</string>
     <string name="d">D</string>
+    <string name="close_drawer">Drawer Closed</string>
+    <string name="open_drawer">Drawer Opened</string>
 </resources>

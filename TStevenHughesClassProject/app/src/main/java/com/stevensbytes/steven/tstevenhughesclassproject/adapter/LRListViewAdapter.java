@@ -18,6 +18,7 @@ public class LRListViewAdapter extends BaseAdapter {
     public LRListViewAdapter(Context context) {
         mContext = context;
         mInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+
     }
 
     @Override
